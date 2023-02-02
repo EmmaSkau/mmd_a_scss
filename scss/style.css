@@ -1,1 +1,43 @@
-/*# sourceMappingURL=style.css.map */
+/*Variables*/
+/*Mixins*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0;
+}
+body p {
+  font-size: 16px;
+  color: #484848;
+  line-height: 1.5;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-weight: 600;
+  color: #484848;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: min-max(50px, auto);
+}
+
+header {
+  grid-column: 1/6; /*1 er hvor den starter 6 er hvor den slutter*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-bottom: 4px solid #3A8479;
+}/*# sourceMappingURL=style.css.map */
